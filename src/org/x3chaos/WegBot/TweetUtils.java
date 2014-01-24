@@ -6,7 +6,7 @@
  *  Class:          org.x3chaos.MarkovBot.TweetUtils
  *  Description:    Several static util methods for processing tweets
  */
-package org.x3chaos.MarkovBot;
+package org.x3chaos.WegBot;
 
 import java.util.ArrayList;
 import java.util.HashMap;
