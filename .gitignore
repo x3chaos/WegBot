@@ -4,3 +4,6 @@
 /test/
 /manifest.mf
 /build.xml
+/build/
+/properties/
+/dist/
