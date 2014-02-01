@@ -2,7 +2,7 @@ package org.x3chaos.WegBot.tasks;
 
 import java.util.List;
 import java.util.logging.Level;
-import org.x3chaos.WegBot.TweetUtils;
+import org.x3chaos.WegBot.utils.TweetUtils;
 import twitter4j.Paging;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
@@ -19,7 +19,7 @@ public class TweetTask extends BotTask {
     public void run() {
         try {
             String tweet = createTweet();
-            postTweet(tweet);
+            // postTweet(tweet);
             System.out.println("Successfully posted tweet.");
             lastTweet = tweet;
         } catch (TwitterException ex) {

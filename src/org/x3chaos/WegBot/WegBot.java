@@ -1,7 +1,7 @@
 /*
  *  Author:         Shawn Lutch
  *  Project:        WegBot
- *  Description:    Generates pseudo-random text, given my last 20 tweets
+ *  Description:    Generates pseudo-random text, given my tweets
  *
  *  Class:          org.x3chaos.WegBot.WegBot
  *  Description:    The bot class
@@ -57,7 +57,7 @@ public class WegBot {
         WegBot bot = new WegBot();
         Twitter twitter = bot.getTwitter();
 
-        bot.registerTask(new FollowBackTask(twitter));
+        // bot.registerTask(new FollowBackTask(twitter));
         bot.registerTask(new TweetTask(twitter));
 
         bot.startAllTasks();
