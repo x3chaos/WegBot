@@ -19,7 +19,7 @@ public class TweetTask extends BotTask {
     public void run() {
         try {
             String tweet = createTweet();
-            // postTweet(tweet);
+            postTweet(tweet);
             System.out.println("Successfully posted tweet.");
             lastTweet = tweet;
         } catch (TwitterException ex) {
